@@ -98,7 +98,7 @@
             document.getElementById("stationMap").src = mapSrc;
             
             // Update the Twitter share button link with station information
-            var tweetText = "【全国鉄道駅ガチャ】\n駅名：" + station.station_name + "\n路線名：" + station.line_name + "\n住所：" + station.address + "\nぜひ行ってみてください！"+"https://tarocaja.github.io/tetsudougacha/";
+            var tweetText = "【全国鉄道駅ガチャ】\n駅名：" + station.station_name + "\n路線名：" + station.line_name + "\n住所：" + station.address + "\nぜひ行ってみてください！"+"\nhttps://tarocaja.github.io/tetsudougacha/";
             var twitterButtonContainer = document.getElementById("twitterButtonContainer");
             twitterButtonContainer.innerHTML = '<a href="https://twitter.com/intent/tweet?text=' + encodeURIComponent(tweetText) + '" class="twitter-share-button" data-size="large" target="_blank">Tweet</a>';
         }
